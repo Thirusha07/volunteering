@@ -119,7 +119,7 @@ router.post('personalinfo',checkSession,(req,res)=>{
                     res.json({Error:err})
                 }
                 else{
-    
+                    res.json({})
                 }
             })
         }
